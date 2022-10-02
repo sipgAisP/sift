@@ -6,3 +6,7 @@ input: Image
 output: Image and sift keypoints (coordinates and descriptor).
 
 See test notebook for details (test_image_generic.ipynb in tests folder)
+
+```shell
+$ docker run --rm -it -p 8061:8061 -v pathtoexternal/externalfile.py=/workspace/external.py sipg/opencvsift:<specific tag>-latest
+```
